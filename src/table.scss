@@ -1,0 +1,54 @@
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+  background-color: #6AC045;
+  color: #ffffff;
+}
+body .ui-paginator .ui-paginator-pages .ui-paginator-page:not(.ui-state-active):hover {
+  background-color: #6AC045;
+  color: #ffffff;
+}
+body .ui-paginator {
+  background-color: #ffffff;
+  border: 1px solid #6AC045;
+}
+body .ui-table .ui-table-summary {
+  background-color: #6AC045;
+  color: #ffffff;
+  border: 1px solid #6AC045;
+}
+body .ui-inputtext {
+  padding: 5px 12px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #6AC045;
+}
+body .ui-table .ui-table-caption {
+  background: white;
+}
+body .ui-table .ui-sortable-column.ui-state-highlight {
+  background: #6AC045;
+  color: #ffffff;
+}
+body .ui-table .ui-table-thead > tr > th {
+  color: #6AC045;
+}
+body .ui-table .ui-sortable-column:not(.ui-state-highlight):hover {
+  background: #6AC045;
+  color: #ffffff;
+}
+body .ui-table .ui-sortable-column .ui-sortable-column-icon {
+  color: #6AC045;
+}
+body .ui-table .ui-sortable-column:not(.ui-state-highlight):hover .ui-sortable-column-icon {
+  color: #ffffff;
+  background: #6AC045;
+}
+
+body .ui-table .ui-table-tbody > tr > td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0.75rem 0.50rem;
+}
+body .ui-table .ui-table-thead > tr > th{
+  padding: 0.75rem 0.50rem;
+}

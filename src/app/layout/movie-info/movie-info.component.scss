@@ -1,0 +1,88 @@
+.movie-container {
+  margin: 0 auto;
+  max-width: 1080px;
+  background: #ffffff;
+
+  .image-container {
+    width: 1080px;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .container {
+    padding: 10px 20px;
+
+    .movie-name {
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #6AC045;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .movie-cast {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #000000;
+    }
+
+    .movie-rating {
+      margin-bottom: 10px;
+      font-size: 16px;
+
+      img {
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .movie-content {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #000000;
+      line-height: 30px;
+    }
+
+    .btn-block {
+      text-align: center;
+      margin: 20px;
+
+      button {
+        border: 3px solid #6AC045;
+        color: #6AC045;
+        background: none;
+        cursor: pointer;
+        padding: 25px 80px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+
+        &:after {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+        &:hover {
+          color: #fff;
+          background: #6AC045;
+        }
+
+        &:active {
+          color: #fff;
+          background: #6AC045;
+        }
+      }
+
+    }
+  }
+}

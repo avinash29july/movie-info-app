@@ -1,0 +1,20 @@
+.header-back {
+  background: #6AC045;
+  box-shadow: 0 0 5px 0 #6AC045;
+  width: 100%;
+  .header {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    h5 {
+      color: #ffffff;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

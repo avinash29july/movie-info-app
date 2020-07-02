@@ -1,0 +1,131 @@
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.nav-component {
+  display: flex;
+  justify-content: center;
+
+  button {
+    border: 3px solid #fff;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      color: #6AC045;
+      background: #fff;
+    }
+
+    &:active {
+      color: #6AC045;
+      background: #fff;
+    }
+  }
+}
+
+.image-component {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .img-item-container {
+    width: 33%;
+    background: white;
+    box-sizing: border-box;
+    margin: .1%;
+    text-align: center;
+
+    .img {
+      width: 357px;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .caption {
+      height: 140px;
+    }
+
+    .movie-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #6AC045;
+    }
+
+    .cast-name {
+      font-size: 11px;
+      color: #1c1c1c;
+    }
+
+    p {
+      padding: 5px 10px;
+    }
+
+    .rating {
+      font-size: 12px;
+      vertical-align: text-top;
+    }
+
+    .star {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+
+    button {
+      border: 3px solid #6AC045;
+      color: #6AC045;
+      background: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+
+      &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+      &:hover {
+        color: #fff;
+        background: #6AC045;
+      }
+
+      &:active {
+        color: #fff;
+        background: #6AC045;
+      }
+    }
+  }
+}

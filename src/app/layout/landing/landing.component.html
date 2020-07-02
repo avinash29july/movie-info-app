@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="nav-component">
+    <button (click)="sendTo('tree')">Browse Movie</button>
+    <button (click)="sendTo('list')">List of movies</button>
+  </div>
+  <div class="image-component">
+    <div class="img-item-container" *ngFor="let list of movieList; let i = index">
+      <img class="img" [src]="list.landingImage" alt="image">
+      <div class="caption">
+        <p class="movie-name">{{list.name}}</p>
+        <p class="cast-name">{{list.cast}}</p>
+        <p>
+          <img class="star" src="../../assets/star.svg" alt="star-icon">
+          <span class="rating">{{list.rating}}</span>
+        </p>
+        <button (click)="getDetails(i)">Details</button>
+      </div>
+    </div>
+  </div>
+</div>

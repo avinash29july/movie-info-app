@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "landingImage": "assets/landing/cap-1.jpg",
+    "detailsImage": "assets/details/pcap-1.jpg",
+    "name": "Captain America: The First Avenger",
+    "cast": "Chris Evans, Sebastian Stan, Scarlett Johansson",
+    "rating": 3,
+    "content": "Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Steve Rogers, a sickly man, is transformed into the super-soldier Captain America and must stop the Red Skull from using the Tesseract as an energy-source for world domination."
+  },
+  {
+    "id": 2,
+    "landingImage": "assets/landing/cap-2.jpg",
+    "detailsImage": "assets/details/pcap-2.jpg",
+    "name": "Captain America: The Winter Soldier",
+    "cast": "Chris Evans,  Anthony Mackie, Cobie Smulders",
+    "rating": 4,
+    "content": "Captain America: The Winter Soldier is a 2014 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and the ninth film in the Marvel Cinematic Universe (MCU). The film was directed by Anthony and Joe Russo from a screenplay by the writing team of Christopher Markus and Stephen McFeely. It stars Chris Evans as Steve Rogers / Captain America alongside Scarlett Johansson, Sebastian Stan, Anthony Mackie, Cobie Smulders, Frank Grillo, Emily VanCamp, Hayley Atwell, Robert Redford, and Samuel L. Jackson. In the film, Captain America joins forces with Black Widow and Falcon to uncover a conspiracy within the spy agency S.H.I.E.L.D. while facing a mysterious assassin known as the Winter Soldier."
+  },
+  {
+    "id": 3,
+    "landingImage": "assets/landing/cap-3.jpg",
+    "detailsImage": "assets/details/pcap-3.jpg",
+    "name": "Captain America: Civil War",
+    "cast": "Robert Downey Jr., Scarlett Johansson, Sebastian Stan",
+    "rating": 4.5,
+    "content": "Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and Captain America: The Winter Soldier (2014), and the 13th film in the Marvel Cinematic Universe (MCU). The film was directed by Anthony and Joe Russo from a screenplay by the writing team of Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside an ensemble cast including Robert Downey Jr., Scarlett Johansson, Sebastian Stan, Anthony Mackie, Don Cheadle, Jeremy Renner, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Paul Rudd, Emily VanCamp, Tom Holland, Frank Grillo, William Hurt, and Daniel Brühl. In Captain America: Civil War, disagreement over international oversight of the Avengers fractures the team into opposing factions—one led by Steve Rogers and the other by Tony Stark."
+  },
+  {
+    "id": 4,
+    "landingImage": "assets/landing/thor-1.jpg",
+    "detailsImage": "assets/details/pthor-1.jpg",
+    "name": "Thor",
+    "cast": "Chris Hemsworth, Natalie Portman, Tom Hiddleston",
+    "rating": 3,
+    "content": "Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fourth film in the Marvel Cinematic Universe (MCU). It was directed by Kenneth Branagh, written by the writing team of Ashley Edward Miller and Zack Stentz along with Don Payne, and stars Chris Hemsworth as the title character alongside Natalie Portman, Tom Hiddleston, Stellan Skarsgård, Colm Feore, Ray Stevenson, Idris Elba, Kat Dennings, Rene Russo, and Anthony Hopkins. After reigniting a dormant war, Thor is banished from Asgard to Earth, stripped of his powers and his hammer Mjölnir. As his brother Loki plots to take the Asgardian throne, Thor must prove himself worthy."
+  }
+]

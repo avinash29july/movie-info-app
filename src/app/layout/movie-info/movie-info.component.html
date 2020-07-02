@@ -1,0 +1,13 @@
+<div class="movie-container">
+
+  <img class="image-container" [src]="movieDetails.detailsImage" alt="image">
+  <div class="container">
+    <p class="movie-name">{{movieDetails.name}}</p>
+    <p class="movie-cast"><strong>Cast:</strong> {{movieDetails.cast}}</p>
+    <p class="movie-rating"><strong>Rating:</strong> {{movieDetails.rating}} <img src="../../assets/star.svg" alt="star-icon"></p>
+    <p class="movie-content"><strong>Description:</strong> {{movieDetails.content}}</p>
+    <div class="btn-block">
+      <button (click)="goBack()">Back</button>
+    </div>
+  </div>
+</div>
