@@ -1,3 +1,7 @@
+# Demo Url
+
+https://avinash29july.github.io/movie-info-app/
+
 # MovieInfoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.10.
