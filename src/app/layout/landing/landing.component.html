@@ -7,8 +7,8 @@
     <div class="img-item-container" *ngFor="let list of movieList; let i = index">
       <img class="img" [src]="list.landingImage" alt="image">
       <div class="caption">
-        <p class="movie-name">{{list.name}}</p>
-        <p class="cast-name">{{list.cast}}</p>
+        <p class="movie-name" title="{{list.name}}">{{list.name}}</p>
+        <p class="cast-name" title="{{list.cast}}">{{list.cast}}</p>
         <p>
           <img class="star" src="./assets/star.svg" alt="star-icon">
           <span class="rating">{{list.rating}}</span>

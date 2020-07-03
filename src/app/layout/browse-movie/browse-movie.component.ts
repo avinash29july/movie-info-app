@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CommonService} from '../../common.service';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
+
 
 export const API_URL = 'assets/data/browse/data.json';
 
@@ -17,12 +18,10 @@ export class BrowseMovieComponent implements OnInit {
   ngOnInit(): void {
     this.commonService.apiCall(API_URL)
       .subscribe(data => {
-        console.log(data);
         this.treeData = data;
       });
   }
   goBack(): void{
     this.router.navigate(['/landing']);
   }
-
 }

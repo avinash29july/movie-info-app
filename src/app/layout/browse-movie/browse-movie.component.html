@@ -3,11 +3,12 @@
     <p>Browse Movie</p>
   </div>
   <div>
-    <p-tree [value]="treeData"  draggableScope="self" droppableScope="self"></p-tree>
+    <p-tree [value]="treeData"  [draggableNodes]="true" [droppableNodes]="true" draggableScope="self" droppableScope="self"></p-tree>
   </div>
   <div class="page-footer">
     <div>
       <button (click)="goBack()">Back</button>
     </div>
   </div>
+  <div class="bottom-space"></div>
 </div>

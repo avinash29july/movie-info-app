@@ -13,6 +13,7 @@ import { MovieListComponent } from './layout/movie-list/movie-list.component';
 import {TableModule} from 'primeng/table';
 import {TreeModule} from 'primeng/tree';
 import { BrowseMovieComponent } from './layout/browse-movie/browse-movie.component';
+import {TreeDragDropService} from 'primeng/api';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { BrowseMovieComponent } from './layout/browse-movie/browse-movie.compone
     TableModule,
     TreeModule
   ],
-  providers: [],
+  providers: [TreeDragDropService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

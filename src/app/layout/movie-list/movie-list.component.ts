@@ -28,7 +28,6 @@ export class MovieListComponent implements OnInit {
   getMovieList() {
     this.commonService.apiCall(API_URL)
       .subscribe(data => {
-        console.log(data);
         this.movieList = data;
       });
   }

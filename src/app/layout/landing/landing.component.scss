@@ -70,11 +70,17 @@
       font-size: 18px;
       font-weight: bold;
       color: #6AC045;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .cast-name {
       font-size: 11px;
       color: #1c1c1c;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     p {

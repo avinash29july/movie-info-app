@@ -2,8 +2,8 @@
   <div class="page-header">
     <p>Movie List</p>
   </div>
-  <div>
-    <p-table #dt  [columns]="cols" [value]="movieList" [scrollable]="true" [style]="{width:'100%'}" scrollHeight="200px" [paginator]="true" [rows]="3">
+  <div class="table-container">
+    <p-table #dt  [columns]="cols" [value]="movieList" [scrollable]="true" [style]="{width:'100%'}" scrollHeight="400px" [paginator]="true" [rows]="8">
       <ng-template pTemplate="caption">
         <div class="ui-table-globalfilter-container">
           <input pInputText class="ui-inputtext" type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Global Search" />
@@ -40,5 +40,5 @@
   <div class="page-footer">
     <button (click)="goBack()">Back</button>
   </div>
-
+  <div class="bottom-space"></div>
 </div>
