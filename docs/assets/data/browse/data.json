@@ -241,7 +241,123 @@
         ]
       }
     ]
+  },
+  {
+    "label": "Tessa Thompson",
+    "data": "Tessa Thompson Folder",
+    "expandedIcon": "pi pi-folder-open",
+    "collapsedIcon": "pi pi-folder",
+    "children": [
+      {
+        "label": "2017",
+        "data": "2017 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Thor: Ragnarok",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      },
+      {
+        "label": "2019",
+        "data": "2019 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Avengers: Endgame",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Mark Ruffalo",
+    "data": "Mark Ruffalo Folder",
+    "expandedIcon": "pi pi-folder-open",
+    "collapsedIcon": "pi pi-folder",
+    "children": [
+      {
+        "label": "2012",
+        "data": "2012 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "The Avengers",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          },
+          {
+            "label": "Iron Man 3",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      },
+      {
+        "label": "2015",
+        "data": "2015 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Avengers: Age of Ultron",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      },
+      {
+        "label": "2017",
+        "data": "2017 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Thor: Ragnarok",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      },
+      {
+        "label": "2018",
+        "data": "2018 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Avengers: Infinity War",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      },
+      {
+        "label": "2019",
+        "data": "2019 Folder",
+        "expandedIcon": "pi pi-folder-open",
+        "collapsedIcon": "pi pi-folder",
+        "children": [
+          {
+            "label": "Captain Marvel",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          },
+          {
+            "label": "Avengers: Endgame",
+            "icon": "pi pi-video",
+            "data": "Movie Name"
+          }
+        ]
+      }
+    ]
   }
-
 ]
 
